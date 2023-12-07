@@ -11,5 +11,9 @@ pnpm dev
 
 ## Features
 
-[`pnpm`](https://pnpm.io/)
-[`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
+#### [`pnpm`](https://pnpm.io/)
+- It installs all dependencies into a single central store.
+- Provides a faster experience.
+- Results in a more readable and less conflicting lock file.
+
+#### [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
