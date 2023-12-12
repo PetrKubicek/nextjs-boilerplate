@@ -17,10 +17,22 @@ pnpm dev
 - Provides a faster experience.
 - Results in a more readable and less conflicting lock file.
 
-### [`React Strict Mode`](https://www.typescriptlang.org/tsconfig#strict)
+#### [`React Strict Mode`](https://www.typescriptlang.org/tsconfig#strict)
 
-### [`TypeScript`](https://www.typescriptlang.org/)
+#### [`TypeScript`](https://www.typescriptlang.org/)
 
-### [`TypeScript Strict Mode`](https://www.typescriptlang.org/tsconfig#strict)
+#### [`TypeScript Strict Mode`](https://www.typescriptlang.org/tsconfig#strict)
 
-#### [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
+#### [`ESLint`](https://eslint.org/)
+
+Configs:
+
+- [`eslint-config-next`](https://nextjs.org/docs/app/building-your-application/configuring/eslint#eslint-config)
+- [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier)
+
+Plugins:
+
+- [`eslint-plugin-unused-imports`](https://github.com/sweepline/eslint-plugin-unused-imports)
+- [`eslint-plugin-simple-import-sort`](https://github.com/lydell/eslint-plugin-simple-import-sort)
+
+#### [`Prettier`](https://prettier.io/)
