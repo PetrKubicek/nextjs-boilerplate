@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "simonsiefke.svg-preview",
+    "styled-components.vscode-styled-components"
+  ]
+}
