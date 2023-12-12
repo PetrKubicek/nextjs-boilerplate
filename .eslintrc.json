@@ -22,6 +22,11 @@
         "plugin:jest-formatting/recommended",
         "plugin:testing-library/react"
       ]
+    },
+    // Configuration for e2e tests (Playwright)
+    {
+      "files": ["**/*.spec.ts"],
+      "extends": ["plugin:playwright/recommended"]
     }
   ]
 }

@@ -5,6 +5,6 @@
     "esbenp.prettier-vscode",
     "yoavbls.pretty-ts-errors",
     "simonsiefke.svg-preview",
-    "styled-components.vscode-styled-components"
+    "ms-playwright.playwright"
   ]
 }

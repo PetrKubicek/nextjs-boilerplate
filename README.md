@@ -41,4 +41,6 @@ Plugins:
 
 #### [`Jest`](https://jestjs.io/)
 
+#### [`Playwright`](https://playwright.dev/)
+
 #### [`GitHub Actions`](https://docs.github.com/en/actions)
