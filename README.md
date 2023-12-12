@@ -36,3 +36,5 @@ Plugins:
 - [`eslint-plugin-simple-import-sort`](https://github.com/lydell/eslint-plugin-simple-import-sort)
 
 #### [`Prettier`](https://prettier.io/)
+
+#### [`GitHub Actions`](https://docs.github.com/en/actions)
