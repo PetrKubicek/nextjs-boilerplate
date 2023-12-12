@@ -10,5 +10,18 @@
     "unused-imports/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error"
-  }
+  },
+  "overrides": [
+    // Configuration for units tests
+    {
+      "files": ["**/*.test.ts", "**/*.test.tsx"],
+      "plugins": ["jest", "jest-dom", "jest-formatting", "testing-library"],
+      "extends": [
+        "plugin:jest/recommended",
+        "plugin:jest-dom/recommended",
+        "plugin:jest-formatting/recommended",
+        "plugin:testing-library/react"
+      ]
+    }
+  ]
 }

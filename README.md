@@ -37,4 +37,8 @@ Plugins:
 
 #### [`Prettier`](https://prettier.io/)
 
+#### [`React Testing Library`](https://testing-library.com/docs/react-testing-library/intro/)
+
+#### [`Jest`](https://jestjs.io/)
+
 #### [`GitHub Actions`](https://docs.github.com/en/actions)
