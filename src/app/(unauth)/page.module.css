@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+  height: 100vh;
+}
+
+.description {
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+}
+
+.description p {
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb));
+  border: 1px solid rgba(var(--callout-border-rgb));
+  border-radius: var(--border-radius);
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}

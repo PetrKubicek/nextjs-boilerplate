@@ -9,6 +9,12 @@ pnpm install
 pnpm dev
 ```
 
+## Project organization
+
+The projects uses Next 14 abillity of colocation for view components. [`Learn more`](https://nextjs.org/docs/app/building-your-application/routing/colocation).
+
+[`Route groups`](https://nextjs.org/docs/app/building-your-application/routing/colocation#route-groups). are used for better route organization. If you e.g. add auth routes in the future, you can create `auth` group. The groups are used just for the organization purposes and they won't affect the final route.
+
 ## Features
 
 #### [`Pnpm`](https://pnpm.io/)

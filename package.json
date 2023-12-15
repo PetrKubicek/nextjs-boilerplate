@@ -14,9 +14,13 @@
     "clean": "rm -rf node_modules **/node_modules"
   },
   "dependencies": {
+    "@react-three/drei": "^9.92.1",
+    "@react-three/fiber": "^8.15.12",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "three": "^0.159.0",
+    "tunnel-rat": "^0.1.2"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.1",
@@ -26,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.159.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
     "eslint-config-prettier": "^9.1.0",
