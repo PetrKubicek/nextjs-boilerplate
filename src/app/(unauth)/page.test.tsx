@@ -5,11 +5,11 @@ import { render, screen } from '@testing-library/react'
 import Home from './page'
 
 describe('Home', () => {
-  it('renders a heading', () => {
+  it('renders a heading', async () => {
     render(<Home />)
 
-    const heading = screen.getByRole('heading', {
-      name: /Docs ->/i,
+    const heading = await screen.findByRole('heading', {
+      name: /Get started by editing/i,
     })
 
     expect(heading).toBeInTheDocument()

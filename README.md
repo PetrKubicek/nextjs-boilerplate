@@ -50,3 +50,11 @@ Plugins:
 #### [`Playwright`](https://playwright.dev/)
 
 #### [`GitHub Actions`](https://docs.github.com/en/actions)
+
+## Troubleshooting
+
+On MacOS you might fail to install `Canvas` dependency which is needed for Jest. To be able to install it, you might need to run this command first:
+
+```
+brew install pkg-config cairo pango libpng jpeg giflib librsvg
+```
